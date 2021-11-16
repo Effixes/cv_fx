@@ -1,0 +1,87 @@
+#mainwrapper {
+  background-color: #03224c;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  background: rgb(22,13,116);
+  background: radial-gradient(circle, rgba(22,13,116,1) 3%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
+  height: 600px;
+  display: flex;
+}
+
+.banner h1 {
+  margin: 0;
+  margin-left: 100px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-left: 100px;
+}
+
+.banner img{
+float: right;
+margin-left: 150px;
+
+}
+
+.text_banner{
+  margin-top: 50px;
+}
+
+#presentation {
+  display: inline-flex;
+  background-color: black;
+  color: white ;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+ 
+#presentation h2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#presentation img {
+  max-width: 700px; 
+  height: auto;
+  padding-left: 10px;
+}
+
+#telechargement {
+
+  margin-bottom: 50px;
+}
+
+#telechargement h3{
+    color: white;
+}
+
+.button {
+  text-align: center;
+}
+
+.button a {
+  background: #4eb5f1;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+.button a:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+/*  -moz-box-shadow:none;
+  -webkit-box-shadow:none;*/
+}

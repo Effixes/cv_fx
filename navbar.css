@@ -1,0 +1,47 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  height: 60px;
+  padding-right: 50px;
+  background: rgba(255, 255, 255, 0);
+  margin-left: -11px;
+  padding-top: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#navbar-table {
+  display: inline-block;
+  flex-wrap: flex-wrap;
+}
+
+#myLinks {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: flex-wrap;
+
+}
+
+#navbar a {
+color: rgb(255, 255, 255);
+  opacity: 0.85;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 0px 10px;
+
+}
+
+#navbar a:hover {
+  opacity: 1;
+  border-bottom: 3px solid #ffffff;
+}
